@@ -1,0 +1,29 @@
+{
+  "name": "file-previewer",
+  "version": "1.0.0",
+  "description": "Simple any file preview for docker as an HTTP service",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "docker build . -t file-previewer"
+  },
+  "keywords": [
+    "filepreview",
+    "thumbnails",
+    "nodejs",
+    "docker",
+    "http"
+  ],
+  "author": "Diego Fernando <dfmv124@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "object-hash": "2.2.0",
+    "unoconv-promise": "1.0.8",
+    "node-fetch": "2.6.1",
+    "mime-types": "2.1.32",
+    "fluent-ffmpeg": "2.1.2",
+    "gm": "1.23.1",
+    "async-mutex": "0.3.1"
+  }
+}
